@@ -40,7 +40,7 @@ def handle_data():
 #        css_resources=css_resources,
 #    )
 
-    return encode_utf8(html)
+#    return encode_utf8(html)
 
     #test = request.form['input_ticker']
 #   	return test
