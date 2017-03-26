@@ -27,7 +27,7 @@ def handle_data():
     validates = not(bool(test(user_input)))
     
     if validates:
-        # plausible ticker, so
+        # plausible ticker, so continue
         make_ticker_plot(user_input)
         return render_template('datetime.html')
     else:

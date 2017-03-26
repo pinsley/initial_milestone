@@ -82,7 +82,7 @@ def make_ticker_plot(ticker):
             
             corrected_dates.append(dt(new_year,new_month,new_day))
      
-     # code here is slightly awkward; originally written in a logical way,
+     # code here is slightly backward; originally written in a logical way,
      # awkwardly altered to make work with datetime data type without rewrite
         corrected_data.append(data[index+1])
         newest_date = dates[index+1]
