@@ -103,4 +103,4 @@ def make_ticker_plot(ticker):
     p.yaxis.axis_label = 'Share price in dollars'
     p.xaxis[0].ticker.desired_num_ticks = len(corrected_dates)
     p.line(corrected_dates,corrected_data, line_width=3, line_color='red')
-    save(p)
+    save(p,title='Closing price plot)
